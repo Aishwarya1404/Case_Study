@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Preassign2/src/preassign1.c&apos; to &apos;preassign2.c&apos;" description="Rename resource &apos;preassign1.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/preassign1.c" name="preassign2.c" stamp="1581775721973" updateReferences="true"/>
+</session>

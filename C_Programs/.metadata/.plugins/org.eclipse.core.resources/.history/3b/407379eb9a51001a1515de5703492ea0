@@ -1,0 +1,38 @@
+#include<stdio.h>
+
+char accept_string()
+{
+	char str[50];
+	printf("\nEnter string");
+	scanf("%s",str);
+//	printf("\nEnter character");
+//	scanf("%c",&ch);
+	return str;
+}
+void  my_strtok(char str[],char ch)
+{
+	int i;
+	for(i=0;str[i]!='\0';i++)
+	{
+		if(str[i]!=ch)
+		{
+			printf("%c",str[i]);
+			continue;
+		}
+		else
+		{
+			printf("\n");
+			continue;
+		}
+	}
+}
+
+int main(void)
+{
+	char str[];
+	char ch;
+	str=accept_string();
+	my_strtok(str,ch);
+	//printf("\nString is:%s",str);
+	return 0;
+}

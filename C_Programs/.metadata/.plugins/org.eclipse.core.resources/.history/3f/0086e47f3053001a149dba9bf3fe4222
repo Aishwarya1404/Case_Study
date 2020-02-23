@@ -1,0 +1,16 @@
+#include<stdio.h>
+enum main_menu{EXIT,CIRCLE,SQUARE,RECTANGLE};
+typedef enum sub_menu{AREA,PERI}menu_t;
+
+int main()
+{
+	enum main_menu choice;
+	while((choice=main_menu())!=0)
+	{
+		switch(choice)
+		{
+
+		}
+	}
+	return 0;
+}

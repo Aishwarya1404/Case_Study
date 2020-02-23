@@ -1,0 +1,7 @@
+#include<stdio.h>
+#include"../include/sum.c"
+int main()
+{
+	int num1,num2;
+	sum(num1,num2);
+}

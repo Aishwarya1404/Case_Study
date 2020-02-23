@@ -1,0 +1,56 @@
+#include<stdio.h>
+#include<string.h>
+char *copy_string(char *,char *);
+void *compare_string(char* ,char*);
+
+int main(void)
+{
+	char str1[50]={"Hello world"};
+	char str2[50];
+
+	printf("\n-------------strcpy()--------------");
+	copy_string(str1,str2);
+	printf("\n Copied string is:%s",str1);
+
+
+	printf("\n------------strcmp()------------");
+	printf("\nEnter string");
+	scanf("%s",str1);
+	printf("\nEnter string");
+	scanf("%s",str2);
+	compare_string(str1,str2);
+
+
+
+	return 0;
+}
+
+char *copy_string(char *s1,char *s2)
+{
+	int i;
+	for(i=0;s1[i]!='\0';i++)
+   {
+	s2[i]=s1[i];
+
+   }
+	s2[i]='\0';
+	return s2;
+}
+void *compare_string(char *s1,char *s2)
+{
+	int i=0,j;
+	if(s1[i]!=s2[i])
+		printf("\nStrings are not equal");
+	else
+	{
+		for(i=1;s1[i]!='\0';i++)
+		{
+			j=s1[i]-s2[i];
+			if(j==0)
+				continue;
+			else
+				printf("\nStrings are not equal");
+		}
+    }
+
+}

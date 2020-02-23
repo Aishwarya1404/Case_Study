@@ -1,0 +1,6 @@
+16:50:12 **** Incremental Build of configuration Debug for project Preassign5 ****
+make all 
+make: Nothing to be done for 'all'.
+
+16:50:13 Build Finished. 0 errors, 0 warnings. (took 828ms)
+

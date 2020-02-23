@@ -1,0 +1,35 @@
+#include<stdio.h>
+#include<string.h>
+char *copy_string(char *,char *);
+char compare_string(char [],char[]);
+
+int main(void)
+{
+	char str1[50]={"Welcome to string Simulation"};
+	char str2[50];
+
+	printf("\n-------------strcpy()--------------");
+	copy_string(str1,str2);
+	printf("%s",str1);
+
+
+	//printf("\n------------strcmp()------------");
+
+	//compare_string(str1,str2);
+
+
+
+	return 0;
+}
+
+char *copy_string(char *s1,char *s2)
+{
+	int i;
+	for(i=0;s1[i]!='\0';i++)
+   {
+	s2[i]=s1[i];
+
+   }
+	s2[i]='\0';
+	return s2;
+}

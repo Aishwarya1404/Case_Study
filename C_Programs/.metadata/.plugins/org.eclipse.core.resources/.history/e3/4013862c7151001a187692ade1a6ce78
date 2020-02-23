@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef	struct Book
+	{
+	char name[20];
+	int id;
+	int price;
+	}book_t;
+
+void Accept_record(book_t *b)
+	{
+	int i;
+	for(i=1;i<2;i++)
+		{
+			setvbuf(stdout,NULL,_IONBF,0);
+			printf("\nEnter book %d details: Name, id and price",i);
+			scanf("%s%d%d",b[i].name,&b[i].id,&b[i].price);
+		}
+
+	}
+
+void Print_record(book_t *b)
+{
+	int i;
+	for(i=1;i<2;i++)
+	{
+	 printf("\n book %d details:Name=%s   id=%d   Price=%d" ,i,b[i].name,b[i].id,b[i].price);
+	}
+}
+
+int main(void) {
+    book_t b[2];
+	Accept_record(&b);
+	Print_record(&b);
+
+
+	//quick_sort();
+	return EXIT_SUCCESS;
+}

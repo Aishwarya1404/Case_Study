@@ -1,0 +1,27 @@
+#include<stdio.h>
+enum main_menu{EXIT,CIRCLE,SQUARE,RECTANGLE};
+typedef enum sub_menu{AREA,PERI}menu_t;
+
+int main()
+{
+	menu_t sub_menu;
+	enum main_menu choice;
+	do{
+		printf("\nEnter your choice");
+		scanf("%d",&choice);
+		switch(choice)
+		{
+		case CIRCLE:
+			Circle_Operations();
+			break;
+		case SQUARE:
+			Square_Operations();
+			break;
+		case RECTANGLE:
+			Rectangle_Operations();
+			break;
+		}
+
+	}while(choice!=0);
+	return 0;
+}

@@ -1,0 +1,458 @@
+18:45:47 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+make: Nothing to be done for 'all'.
+18:46:02 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c: In function ‘FindName’:
+../src/preassign7.c:155:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[20]’ [-Wformat=]
+   scanf("%s",& name);
+          ~^  ~~~~~~
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:198:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+  scanf("%d",&ch);
+         ~^  ~~~
+../src/preassign7.c: In function ‘AddFirst’:
+../src/preassign7.c:84:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/preassign7.c: In function ‘AddLast’:
+../src/preassign7.c:99:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+../src/preassign7.c: In function ‘FindName’:
+../src/preassign7.c:169:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/preassign7.c: In function ‘FindId’:
+../src/preassign7.c:191:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+../src/preassign7.c: In function ‘AcceptInfo’:
+../src/preassign7.c:59:19: warning: ‘A’ is used uninitialized in this function [-Wuninitialized]
+        scanf("%s",A->acc_holder_nm);
+                   ^
+Finished building: ../src/preassign7.c
+ 
+Building target: Preassign7
+Invoking: GCC C Linker
+gcc  -o "Preassign7"  ./src/preassign7.o   
+Finished building target: Preassign7
+ 
+18:52:53 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c:150:6: error: conflicting types for ‘FindName’
+ void FindName()
+      ^~~~~~~~
+../src/preassign7.c:21:7: note: previous declaration of ‘FindName’ was here
+ NODE* FindName();
+       ^~~~~~~~
+../src/preassign7.c: In function ‘FindName’:
+../src/preassign7.c:157:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[20]’ [-Wformat=]
+   scanf("%s",& name);
+          ~^  ~~~~~~
+../src/preassign7.c: At top level:
+../src/preassign7.c:173:6: error: conflicting types for ‘FindId’
+ void FindId()
+src/subdir.mk:18: recipe for target 'src/preassign7.o' failed
+      ^~~~~~
+../src/preassign7.c:20:7: note: previous declaration of ‘FindId’ was here
+ NODE* FindId();
+       ^~~~~~
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:201:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+  scanf("%d",&ch);
+         ~^  ~~~
+make: *** [src/preassign7.o] Error 1
+18:53:35 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c: In function ‘FindName’:
+../src/preassign7.c:157:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[20]’ [-Wformat=]
+   scanf("%s",& name);
+          ~^  ~~~~~~
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:201:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+  scanf("%d",&ch);
+         ~^  ~~~
+../src/preassign7.c: In function ‘AcceptInfo’:
+../src/preassign7.c:59:19: warning: ‘A’ is used uninitialized in this function [-Wuninitialized]
+        scanf("%s",A->acc_holder_nm);
+                   ^
+Finished building: ../src/preassign7.c
+ 
+Building target: Preassign7
+Invoking: GCC C Linker
+gcc  -o "Preassign7"  ./src/preassign7.o   
+Finished building target: Preassign7
+ 
+18:54:28 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c: In function ‘FindName’:
+../src/preassign7.c:157:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[20]’ [-Wformat=]
+   scanf("%s",& name);
+          ~^  ~~~~~~
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:201:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+  scanf("%d",&ch);
+         ~^  ~~~
+../src/preassign7.c: In function ‘AcceptInfo’:
+../src/preassign7.c:59:19: warning: ‘A’ is used uninitialized in this function [-Wuninitialized]
+        scanf("%s",A->acc_holder_nm);
+                   ^
+Finished building: ../src/preassign7.c
+ 
+Building target: Preassign7
+Invoking: GCC C Linker
+gcc  -o "Preassign7"  ./src/preassign7.o   
+Finished building target: Preassign7
+ 
+18:54:55 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c: In function ‘AcceptInfo’:
+../src/preassign7.c:59:16: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[20]’ [-Wformat=]
+        scanf("%s",&A->acc_holder_nm);
+               ~^  ~~~~~~~~~~~~~~~~~
+../src/preassign7.c: In function ‘FindName’:
+../src/preassign7.c:157:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[20]’ [-Wformat=]
+   scanf("%s",& name);
+          ~^  ~~~~~~
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:201:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+  scanf("%d",&ch);
+         ~^  ~~~
+../src/preassign7.c: In function ‘AcceptInfo’:
+../src/preassign7.c:59:8: warning: ‘A’ is used uninitialized in this function [-Wuninitialized]
+        scanf("%s",&A->acc_holder_nm);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finished building: ../src/preassign7.c
+ 
+Building target: Preassign7
+Invoking: GCC C Linker
+gcc  -o "Preassign7"  ./src/preassign7.o   
+Finished building target: Preassign7
+ 
+18:55:16 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+make: Nothing to be done for 'all'.
+19:02:09 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c: In function ‘CreateNode’:
+../src/preassign7.c:92:1: error: number of arguments doesn’t match prototype
+ {
+ ^
+../src/preassign7.c:18:7: error: prototype declaration
+ NODE* CreateNode(NODE* obj);
+       ^~~~~~~~~~
+../src/preassign7.c:96:17: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[20]’ [-Wformat=]
+         scanf("%s",&A->acc_holder_nm);
+                ~^  ~~~~~~~~~~~~~~~~~
+src/subdir.mk:18: recipe for target 'src/preassign7.o' failed
+../src/preassign7.c: In function ‘FindName’:
+../src/preassign7.c:150:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[20]’ [-Wformat=]
+   scanf("%s",& name);
+          ~^  ~~~~~~
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:194:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+  scanf("%d",&ch);
+         ~^  ~~~
+make: *** [src/preassign7.o] Error 1
+19:02:30 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c: In function ‘CreateNode’:
+../src/preassign7.c:92:1: error: number of arguments doesn’t match prototype
+ {
+ ^
+../src/preassign7.c:18:7: error: prototype declaration
+ NODE* CreateNode(NODE* obj);
+       ^~~~~~~~~~
+../src/preassign7.c: In function ‘FindName’:
+../src/preassign7.c:150:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[20]’ [-Wformat=]
+   scanf("%s",& name);
+          ~^  ~~~~~~
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:194:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+  scanf("%d",&ch);
+         ~^  ~~~
+src/subdir.mk:18: recipe for target 'src/preassign7.o' failed
+make: *** [src/preassign7.o] Error 1
+19:02:41 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c: In function ‘CreateNode’:
+../src/preassign7.c:92:1: error: number of arguments doesn’t match prototype
+ {
+ ^
+../src/preassign7.c:18:7: error: prototype declaration
+ NODE* CreateNode(NODE* obj);
+       ^~~~~~~~~~
+../src/preassign7.c: In function ‘FindName’:
+../src/preassign7.c:150:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[20]’ [-Wformat=]
+   scanf("%s",& name);
+          ~^  ~~~~~~
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:194:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+  scanf("%d",&ch);
+         ~^  ~~~
+src/subdir.mk:18: recipe for target 'src/preassign7.o' failed
+make: *** [src/preassign7.o] Error 1
+19:17:06 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c: In function ‘FindName’:
+../src/preassign7.c:150:11: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[20]’ [-Wformat=]
+   scanf("%s",& name);
+          ~^  ~~~~~~
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:194:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+  scanf("%d",&ch);
+         ~^  ~~~
+../src/preassign7.c: In function ‘AcceptInfo’:
+../src/preassign7.c:59:15: warning: ‘A’ is used uninitialized in this function [-Wuninitialized]
+        return A;
+               ^
+Finished building: ../src/preassign7.c
+ 
+Building target: Preassign7
+Invoking: GCC C Linker
+gcc  -o "Preassign7"  ./src/preassign7.o   
+Finished building target: Preassign7
+ 
+19:19:20 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c: In function ‘main’:
+../src/preassign7.c:32:10: error: too few arguments to function ‘AddFirst’
+          AddFirst();
+          ^~~~~~~~
+../src/preassign7.c:14:7: note: declared here
+ NODE* AddFirst(NODE* obj);
+       ^~~~~~~~
+../src/preassign7.c: In function ‘AddFirst’:
+../src/preassign7.c:61:1: error: number of arguments doesn’t match prototype
+ {
+ ^
+../src/preassign7.c:14:7: error: prototype declaration
+ NODE* AddFirst(NODE* obj);
+       ^~~~~~~~
+../src/preassign7.c: In function ‘AddLast’:
+../src/preassign7.c:74:2: error: number of arguments doesn’t match prototype
+  {
+  ^
+../src/preassign7.c:15:7: error: prototype declaration
+ NODE* AddLast(NODE* obj);
+       ^~~~~~~
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:193:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+src/subdir.mk:18: recipe for target 'src/preassign7.o' failed
+  scanf("%d",&ch);
+         ~^  ~~~
+make: *** [src/preassign7.o] Error 1
+19:19:44 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:193:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+  scanf("%d",&ch);
+         ~^  ~~~
+Finished building: ../src/preassign7.c
+ 
+Building target: Preassign7
+Invoking: GCC C Linker
+gcc  -o "Preassign7"  ./src/preassign7.o   
+./src/preassign7.o: In function `main':
+/home/sunbeam/C_Programs/Preassign7/Debug/../src/preassign7.c:35: undefined reference to `AcceptInfo'
+collect2: error: ld returned 1 exit status
+makefile:30: recipe for target 'Preassign7' failed
+make: *** [Preassign7] Error 1
+19:20:23 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c: In function ‘main’:
+../src/preassign7.c:24:11: warning: unused variable ‘A’ [-Wunused-variable]
+     NODE *A;
+           ^
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:193:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+  scanf("%d",&ch);
+         ~^  ~~~
+Finished building: ../src/preassign7.c
+ 
+Building target: Preassign7
+Invoking: GCC C Linker
+gcc  -o "Preassign7"  ./src/preassign7.o   
+Finished building target: Preassign7
+ 
+19:21:56 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+make: Nothing to be done for 'all'.
+19:29:08 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c: In function ‘main’:
+../src/preassign7.c:24:11: warning: unused variable ‘A’ [-Wunused-variable]
+     NODE *A;
+           ^
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:192:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+  scanf("%d",&ch);
+         ~^  ~~~
+Finished building: ../src/preassign7.c
+ 
+Building target: Preassign7
+Invoking: GCC C Linker
+gcc  -o "Preassign7"  ./src/preassign7.o   
+Finished building target: Preassign7
+ 
+19:29:16 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+make: Nothing to be done for 'all'.
+19:31:01 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+Building file: ../src/preassign7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign7.d" -MT"src/preassign7.o" -o "src/preassign7.o" "../src/preassign7.c"
+../src/preassign7.c: In function ‘main’:
+../src/preassign7.c:24:11: warning: unused variable ‘A’ [-Wunused-variable]
+     NODE *A;
+           ^
+../src/preassign7.c: In function ‘choice’:
+../src/preassign7.c:193:10: warning: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘MENU * {aka enum <anonymous> *}’ [-Wformat=]
+  scanf("%d",&ch);
+         ~^  ~~~
+Finished building: ../src/preassign7.c
+ 
+Building target: Preassign7
+Invoking: GCC C Linker
+gcc  -o "Preassign7"  ./src/preassign7.o   
+Finished building target: Preassign7
+ 
+19:31:11 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+make: Nothing to be done for 'all'.
+19:31:30 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+make: Nothing to be done for 'all'.
+19:32:17 **** Incremental Build of configuration Debug for project Preassign7 ****
+make all 
+make: Nothing to be done for 'all'.
+21:08:16 **** Incremental Build of configuration Debug for project Preassign4 ****
+make all 
+Building file: ../src/preassign4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign4.d" -MT"src/preassign4.o" -o "src/preassign4.o" "../src/preassign4.c"
+Finished building: ../src/preassign4.c
+ 
+Building target: Preassign4
+Invoking: GCC C Linker
+gcc  -o "Preassign4"  ./src/preassign4.o   
+Finished building target: Preassign4
+ 
+21:08:36 **** Incremental Build of configuration Debug for project Preassign4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:15:08 **** Incremental Build of configuration Debug for project Preassign4 ****
+make all 
+Building file: ../src/preassign4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign4.d" -MT"src/preassign4.o" -o "src/preassign4.o" "../src/preassign4.c"
+../src/preassign4.c: In function ‘compare_id’:
+../src/preassign4.c:41:2: error: conversion to non-scalar type requested
+src/subdir.mk:18: recipe for target 'src/preassign4.o' failed
+  book_t b1=(book_t)s1;
+  ^~~~~~
+../src/preassign4.c:42:2: error: conversion to non-scalar type requested
+  book_t b2=(book_t)s2;
+  ^~~~~~
+../src/preassign4.c:43:7: error: invalid type argument of ‘->’ (have ‘book_t {aka struct book}’)
+  if(b1->id >b2->id)
+       ^~
+../src/preassign4.c:43:15: error: invalid type argument of ‘->’ (have ‘book_t {aka struct book}’)
+  if(b1->id >b2->id)
+               ^~
+../src/preassign4.c:45:7: error: invalid type argument of ‘->’ (have ‘book_t {aka struct book}’)
+  if(b1->id < b2->id)
+       ^~
+../src/preassign4.c:45:16: error: invalid type argument of ‘->’ (have ‘book_t {aka struct book}’)
+  if(b1->id < b2->id)
+                ^~
+../src/preassign4.c:51:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/preassign4.o] Error 1
+21:15:54 **** Incremental Build of configuration Debug for project Preassign4 ****
+make all 
+Building file: ../src/preassign4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign4.d" -MT"src/preassign4.o" -o "src/preassign4.o" "../src/preassign4.c"
+Finished building: ../src/preassign4.c
+ 
+Building target: Preassign4
+Invoking: GCC C Linker
+gcc  -o "Preassign4"  ./src/preassign4.o   
+Finished building target: Preassign4
+ 
+21:15:59 **** Incremental Build of configuration Debug for project Preassign4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:17:15 **** Incremental Build of configuration Debug for project Preassign4 ****
+make all 
+Building file: ../src/preassign4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign4.d" -MT"src/preassign4.o" -o "src/preassign4.o" "../src/preassign4.c"
+Finished building: ../src/preassign4.c
+ 
+Building target: Preassign4
+Invoking: GCC C Linker
+gcc  -o "Preassign4"  ./src/preassign4.o   
+Finished building target: Preassign4
+ 
+21:17:21 **** Incremental Build of configuration Debug for project Preassign4 ****
+make all 
+make: Nothing to be done for 'all'.
+21:19:38 **** Incremental Build of configuration Debug for project Preassign4 ****
+make all 
+Building file: ../src/preassign4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/preassign4.d" -MT"src/preassign4.o" -o "src/preassign4.o" "../src/preassign4.c"
+Finished building: ../src/preassign4.c
+ 
+Building target: Preassign4
+Invoking: GCC C Linker
+gcc  -o "Preassign4"  ./src/preassign4.o   
+Finished building target: Preassign4
+ 
+21:19:42 **** Incremental Build of configuration Debug for project Preassign4 ****
+make all 
+make: Nothing to be done for 'all'.
